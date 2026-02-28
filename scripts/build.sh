@@ -61,6 +61,7 @@ ${CROSS_PREFIX}gcc -Ofast -shared -fPIC \
 # Copy files to dist (use cat to avoid ExtFS deallocation issues with Docker)
 echo "Packaging..."
 cat src/module.json > dist/psxverb/module.json
+[ -f src/help.json ] && cat src/help.json > dist/psxverb/help.json
 cat build/psxverb.so > dist/psxverb/psxverb.so
 chmod +x dist/psxverb/psxverb.so
 

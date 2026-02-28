@@ -1,0 +1,43 @@
+{
+  "title": "PSX Verb",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "PlayStation 1 SPU",
+        "reverb emulation.",
+        "",
+        "Authentic PS1 reverb",
+        "algorithm with exact",
+        "SPU register values.",
+        "",
+        "6 presets from the",
+        "original hardware."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "Knob 1: Model",
+        " Room: small, tight",
+        " Studio S: small",
+        " Studio M: medium",
+        " Studio L: large",
+        " Hall: cathedral",
+        " Space Echo: ambient",
+        "",
+        "Knob 2: Decay",
+        " Reflection feedback",
+        "",
+        "Knob 3: Mix",
+        " Dry/wet blend",
+        "",
+        "Knob 4: Level",
+        " Reverb output level",
+        "",
+        "Input Gain also",
+        "available in menu."
+      ]
+    }
+  ]
+}
